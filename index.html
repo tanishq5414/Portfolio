@@ -1,135 +1,317 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Tanishq | Portfolio</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Tansihq">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/kube.min.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/custom.min.css" />
-    <link rel="shortcut icon" href="img/favicon.ico" />
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
-	<style>
-		.intro h1:before {
-			/* Edit this with your name or anything else */
-			content: 'Tanishq';
-		}
-	</style>
-</head>
-<body>
-	<!-- Navigation -->
-	<div class="main-nav">
-		<div class="container">
-			<header class="group top-nav">
-				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
-				    <span class="logo">Tanishq</span>
-				</div>
-			    <nav id="navbar-1" class="navbar item-nav">
-				    <ul>
-				        <li class="active"><a href="#about">About</a></li>
-						<li><a href="#skills">Skills</a></li>
-				        <li><a href="#projects">Projects</a></li>
-				        <li><a href="#achievements">Achievements</a></li>
-						<li><a href="https://medium.com/@tanishqagarwal5414" target="_blank">Blog</a></li>
-						<li><a href="https://www.linkedin.com/in/tanishqagarwal/" target="_blank">Linked In</a></li>
-						<li><a href="https://github.com/tanishq5414" target="_blank">Github</a></li>
-				    </ul>
-				</nav>
-			</header>
-		</div>
-	</div>
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Tanishq Agarwal | Engineer</title>
 
-	<!-- Introduction -->
-	<div class="intro section" id="about">
-		<div class="container">
-			<p></p>
-			<div class="units-row units-split wrap">
-				<div class="unit-20">
-					<img src="img/ava.jpeg" alt="Avatar">
-				</div>
-				<div class="unit-80">
-					<h1>Hello, I am<br> Tanishq Agarwal</h1>
-				</div>
-				<h3>
-					and this is my home on the internet.					
-				</h3>
-				<br>
-				<p>
-					Currently I am pursuing my undergrad in <b>Computer Science and Engineering.</b> I am interested in <b>Machine Learning</b>, Design and Philosophy. 
-				</p>
-				<p>I like reading a lot of blogs and have my own blog which you can checkout.</p>
-				<p>Over the last few years I've learnt these skills, and am trying to constantly teach myself more! </p>
-			</div>
-		</div>
-	</div>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta
+      name="keywords"
+      content="Tanishq, Agarwal, Tanishq Agarwal, tanishq5414, tvnishq, flutter, react, node.js, lightheads.org, lightheads, founder, mlrit, mlr institute of technology, hyderabad, javascript, student"
+    />
 
-	<div class="skills section second" id="skills">
-		<div class="container">
-			<h1>Skills</h1>
-			<ul class="skill-list list-flat">
-				<li>Machine Learning</li>
-				<li>Python</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>App Development</li>
-				<li>Flutter</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Creative Direction</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>UI/UX Design</li>
-				<li>Adobe XD</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Notion</li>
-			</ul>
-		</div>
-	</div>
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta
+      name="description"
+      content="[Tanishq Agarwal] | Engineer Savvy problem-solver, have a critical eye, love philosophy and technology.
+    I'm a college student currently studying Computer Science. You may know me through a variety of different social media sites (not here though) or not at all. I love making my way around and finding new things in the world."
+    />
 
-	<!-- Work Experience -->
-	<div class="work section second" id="projects">
-		<div class="container">
-			<h1>Projects</h1>
-			<ul class="work-list">
-				<li>2021</li>
-				<li><a href="#">Automatic Number Plate Recognition System</a></li>
-				<li>Machine Learning</li>
-			</ul>
-			<ul class="work-list">
-				<li>2021</li>
-				<li><a href="https://github.com/tanishq5414/Covid-19-Tracker/tree/master" target="_blank">Covid 19 Tracker Application</a></li>
-				<li>App Development (Flutter)</li>
-			</ul>
-			<ul class="work-list">
-				<li>2021</li>
-				<li><a href="https://github.com/tanishq5414/Medical-Centre-Finder/tree/main" target="_blank">Medical Centers Finder Application</a></li>
-				<li>App Development (Flutter)</li>
-			</ul>
-		</div>
-	</div>
-	
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
 
-	<!-- Award & Achievements -->
-	<div class="award section second" id="achievements">
-		<div class="container">
-			<h1>Award &amp;<br>Achievements</h1>
-			<ul class="award-list list-flat">
-				<li>Won Lexicon2.0(National Level Hackathon)</li>
-				<li>App Development</li>
-				<!-- <li>Hold world/Olympic record</li> -->
-			</ul>
-		</div>
-	</div>	
-	<!-- Javascript -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/typed.min.js"></script>
-    <script src="js/kube.min.js"></script>
-    <script src="js/site.js"></script>
-</body>
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://tanishq.lightheads.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Tanishq Agarwal| Engineer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta
+      property="og:description"
+      content="Triumphing amidst life's bug-fixes."
+    />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="Tanishq | Engineer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta property="twitter:description" content="In my anti healing era" />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-122228201-4");
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is
+          <span class="text-color-main name">Tanishq Agarwal</span>
+          <br />
+          I am a Devloper Software Engineer.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/profile.jpg"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I am an avid computer science enthusiast, deeply passionate about
+              technology. Throughout my journey, I have actively contributed to
+              a variety of open-source projects, finding fulfillment in
+              collaborative community efforts and exploring new horizons.
+              Quality is a core principle in my work, and I consistently strive
+              for excellence.
+            </p>
+            <p>
+              As a proactive leader in multiple clubs and organizations, I
+              promote a culture of collaboration, innovation, and creativity
+              among team members. My commitment to continuous learning keeps me
+              at the forefront of advancements in the dynamic field of computer
+              science. My goal is to make a positive impact through my work,
+              carving a promising path in the world of technology.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Companion</h3>
+              <p class="project-wrapper__text-info">
+                Developed an app that connects campus students, amassing over
+                900 downloads from the Play Store and maintaining a daily active
+                user base of 100
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.lightheads.companion.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a
+                  href="https://github.com/tanishq5414/Companion"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://github.com/tanishq5414/Companion"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project1.png"
+                    class="img-fluid"
+                    alt="Companion App"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">ANPR</h3>
+              <p class="project-wrapper__text-info">
+                Revolutionary project leveraging advanced computer vision and
+                deep learning. Effortlessly extract license plate info from
+                images and real-time video streams. Optimize traffic management,
+                parking systems, and law enforcement. Flexible support for
+                multiple countries' license plate formats. Easy integration,
+                robust segmentation, and recognition for automated tasks.
+                Elevate your projects with ANPR!
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/tanishq5414/ANPR" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/tanishq5414/ANPR" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project2.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text" >Drop me a mail</p>
+          <a href="mailto:tanishqagarwal5414@gmail.com" class="cta-btn cta-btn--resume">tanishqagarwal5414@gmail.com</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://twitter.com/tvnishq"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/tanishqagarwal"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/tanishq5414"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
 </html>
